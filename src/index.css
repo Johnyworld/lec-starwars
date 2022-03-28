@@ -33,6 +33,11 @@ button:hover {
   border-color: #fff;
 }
 
+button:disabled {
+  color: #555;
+  border-color: #555;
+}
+
 .content {
   text-align: left;
 }
@@ -51,5 +56,15 @@ button:hover {
 
 .card h3 {
   margin: 10px 0;
+  color: #ffff57;
+}
+
+.page-num {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.page-num.selected {
+  font-weight: bold;
   color: #ffff57;
 }
